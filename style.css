@@ -152,18 +152,19 @@ html {
 
 .hero-img{
   rotate: 7deg;
-  max-width: 330px;
+  max-width: 230px;
   display: flex;  
   justify-content: center;
   margin: 0 auto ;
   animation: fadeInUp 1.6s ease-in-out;
-  border-radius: 8%;
+  border-radius: 54px;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(10px); 
   border: 1px solidrgba(255, 255, 255, 0.3);
   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
   padding : 5px;
+    animation: downin 3s infinite;
 }
 
 .hero-img img{
@@ -486,11 +487,11 @@ section {
 
 @keyframes scrollSmooth {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(1150px, 0, 0);
   }
   100% {
  
-    transform: translate3d(calc(-250px * 4), 0, 0);
+    transform: translate3d(calc(-250px * 8), 0, 0);
   }
 }
 
